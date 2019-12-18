@@ -1,0 +1,75 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "518d4a9c-8796-45f3-99ea-f39231b36efa": {
+        "id": "518d4a9c-8796-45f3-99ea-f39231b36efa",
+        "parent": null,
+        "name": "repoocheckinduu",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "e1f4a14e-3994-43e7-841a-4b4ba25dc696"
+        ],
+        "isRemovable": false,
+        "filePath": "repoocheckinduu"
+      },
+      "e1f4a14e-3994-43e7-841a-4b4ba25dc696": {
+        "id": "e1f4a14e-3994-43e7-841a-4b4ba25dc696",
+        "parent": "518d4a9c-8796-45f3-99ea-f39231b36efa",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "repoocheckinduu/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "518d4a9c-8796-45f3-99ea-f39231b36efa",
+    "openFiles": [
+      "e1f4a14e-3994-43e7-841a-4b4ba25dc696"
+    ],
+    "currentFileId": "e1f4a14e-3994-43e7-841a-4b4ba25dc696",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "repoocheckinduu",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1576664192773
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "repoocheckinduu",
+      "url": "https://github.com/Indunil1992/repoocheckinduu"
+    }
+  }
+}
