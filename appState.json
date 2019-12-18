@@ -8,7 +8,20 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "e1f4a14e-3994-43e7-841a-4b4ba25dc696"
+          "e1f4a14e-3994-43e7-841a-4b4ba25dc696",
+          "6e1ace5a-01cd-4e65-826c-996c716597fb",
+          "7f088c83-6f7b-4bbf-aa23-2c95c60361e9",
+          "d9589314-95a3-4560-bbaf-271a9c63093d",
+          "fe6c2727-3aaa-4750-a57a-7cb34dbb1b70",
+          "a48938a2-4280-4510-a9f0-aae6ba4ade34",
+          "08bd531d-5f4d-49fd-a0ec-aca3b333b327",
+          "af8049f8-1018-41d5-880d-cb6fb8ce1ce8",
+          "21283fe5-00a8-4a8e-b723-00ce68484f2c",
+          "7a135587-03c9-45e0-90b0-27e4dd9e5779",
+          "ff0f449b-80fb-4b6f-a060-b6f8ccdc1be6",
+          "898de76f-1292-4c71-a375-fd7034f0a1df",
+          "52820184-9ab9-4e7a-b6f6-8abed20458c7",
+          "93b979da-4a1f-466b-9008-84383858aadf"
         ],
         "isRemovable": false,
         "filePath": "repoocheckinduu"
@@ -30,14 +43,257 @@
           "layers": []
         },
         "triggers": []
+      },
+      "6e1ace5a-01cd-4e65-826c-996c716597fb": {
+        "id": "6e1ace5a-01cd-4e65-826c-996c716597fb",
+        "parent": "518d4a9c-8796-45f3-99ea-f39231b36efa",
+        "name": "python1.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "repoocheckinduu/python1.py",
+        "config": {
+          "runtime": "python2.7",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1slpAnimalApiuploadany",
+            "config": {}
+          }
+        ]
+      },
+      "7f088c83-6f7b-4bbf-aa23-2c95c60361e9": {
+        "id": "7f088c83-6f7b-4bbf-aa23-2c95c60361e9",
+        "parent": "518d4a9c-8796-45f3-99ea-f39231b36efa",
+        "name": "__init__.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "repoocheckinduu/__init__.py"
+      },
+      "d9589314-95a3-4560-bbaf-271a9c63093d": {
+        "id": "d9589314-95a3-4560-bbaf-271a9c63093d",
+        "parent": "518d4a9c-8796-45f3-99ea-f39231b36efa",
+        "name": "jsFile1.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "repoocheckinduu/jsFile1.js"
+      },
+      "fe6c2727-3aaa-4750-a57a-7cb34dbb1b70": {
+        "id": "fe6c2727-3aaa-4750-a57a-7cb34dbb1b70",
+        "parent": "518d4a9c-8796-45f3-99ea-f39231b36efa",
+        "name": "html1.html",
+        "type": "HTML_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "repoocheckinduu/html1.html"
+      },
+      "a48938a2-4280-4510-a9f0-aae6ba4ade34": {
+        "id": "a48938a2-4280-4510-a9f0-aae6ba4ade34",
+        "parent": "518d4a9c-8796-45f3-99ea-f39231b36efa",
+        "name": "css1.css",
+        "type": "CSS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "repoocheckinduu/css1.css"
+      },
+      "08bd531d-5f4d-49fd-a0ec-aca3b333b327": {
+        "id": "08bd531d-5f4d-49fd-a0ec-aca3b333b327",
+        "parent": "518d4a9c-8796-45f3-99ea-f39231b36efa",
+        "name": "Scss1.scss",
+        "type": "SCSS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "repoocheckinduu/Scss1.scss"
+      },
+      "af8049f8-1018-41d5-880d-cb6fb8ce1ce8": {
+        "id": "af8049f8-1018-41d5-880d-cb6fb8ce1ce8",
+        "parent": "518d4a9c-8796-45f3-99ea-f39231b36efa",
+        "name": "Json1.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "repoocheckinduu/Json1.json"
+      },
+      "21283fe5-00a8-4a8e-b723-00ce68484f2c": {
+        "id": "21283fe5-00a8-4a8e-b723-00ce68484f2c",
+        "parent": "518d4a9c-8796-45f3-99ea-f39231b36efa",
+        "name": "xml1.xml",
+        "type": "XML_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "repoocheckinduu/xml1.xml"
+      },
+      "7a135587-03c9-45e0-90b0-27e4dd9e5779": {
+        "id": "7a135587-03c9-45e0-90b0-27e4dd9e5779",
+        "parent": "518d4a9c-8796-45f3-99ea-f39231b36efa",
+        "name": "YAML1.yaml",
+        "type": "YAML_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "repoocheckinduu/YAML1.yaml"
+      },
+      "ff0f449b-80fb-4b6f-a060-b6f8ccdc1be6": {
+        "id": "ff0f449b-80fb-4b6f-a060-b6f8ccdc1be6",
+        "parent": "518d4a9c-8796-45f3-99ea-f39231b36efa",
+        "name": "text.txt",
+        "type": "TEXT_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "repoocheckinduu/text.txt"
+      },
+      "898de76f-1292-4c71-a375-fd7034f0a1df": {
+        "id": "898de76f-1292-4c71-a375-fd7034f0a1df",
+        "parent": "518d4a9c-8796-45f3-99ea-f39231b36efa",
+        "name": "markdwn.md",
+        "type": "MARKDOWN_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "repoocheckinduu/markdwn.md"
+      },
+      "52820184-9ab9-4e7a-b6f6-8abed20458c7": {
+        "id": "52820184-9ab9-4e7a-b6f6-8abed20458c7",
+        "parent": "518d4a9c-8796-45f3-99ea-f39231b36efa",
+        "name": "R.r",
+        "type": "R_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "repoocheckinduu/R.r"
+      },
+      "93b979da-4a1f-466b-9008-84383858aadf": {
+        "id": "93b979da-4a1f-466b-9008-84383858aadf",
+        "parent": "518d4a9c-8796-45f3-99ea-f39231b36efa",
+        "name": "directry filee",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "d6e7a6af-ad74-4e4c-900e-d4bf16caf994",
+          "d41ce3ad-56ac-4010-925e-23ed1786de2e"
+        ],
+        "isRemovable": true,
+        "filePath": "repoocheckinduu/directry filee"
+      },
+      "d6e7a6af-ad74-4e4c-900e-d4bf16caf994": {
+        "id": "d6e7a6af-ad74-4e4c-900e-d4bf16caf994",
+        "parent": "93b979da-4a1f-466b-9008-84383858aadf",
+        "name": "newJSinDirFile23.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "repoocheckinduu/directry filee/newJSinDirFile23.js"
+      },
+      "d41ce3ad-56ac-4010-925e-23ed1786de2e": {
+        "id": "d41ce3ad-56ac-4010-925e-23ed1786de2e",
+        "parent": "93b979da-4a1f-466b-9008-84383858aadf",
+        "name": "subDir",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "7f099d2f-18ec-4216-b437-4167c5dece3c",
+          "c5784931-2bbc-4ab7-85f3-71139d9398ed",
+          "32365e5e-86aa-42da-b1bf-d2fe4e76f316"
+        ],
+        "isRemovable": true,
+        "filePath": "repoocheckinduu/directry filee/subDir"
+      },
+      "7f099d2f-18ec-4216-b437-4167c5dece3c": {
+        "id": "7f099d2f-18ec-4216-b437-4167c5dece3c",
+        "parent": "d41ce3ad-56ac-4010-925e-23ed1786de2e",
+        "name": "subDirpythn.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "repoocheckinduu/directry filee/subDir/subDirpythn.py"
+      },
+      "c5784931-2bbc-4ab7-85f3-71139d9398ed": {
+        "id": "c5784931-2bbc-4ab7-85f3-71139d9398ed",
+        "parent": "d41ce3ad-56ac-4010-925e-23ed1786de2e",
+        "name": "__init__.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "repoocheckinduu/directry filee/subDir/__init__.py"
+      },
+      "32365e5e-86aa-42da-b1bf-d2fe4e76f316": {
+        "id": "32365e5e-86aa-42da-b1bf-d2fe4e76f316",
+        "parent": "d41ce3ad-56ac-4010-925e-23ed1786de2e",
+        "name": "testcld.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "repoocheckinduu/directry filee/subDir/testcld.json"
       }
     },
     "rootNode": "518d4a9c-8796-45f3-99ea-f39231b36efa",
     "openFiles": [
-      "e1f4a14e-3994-43e7-841a-4b4ba25dc696"
+      "e1f4a14e-3994-43e7-841a-4b4ba25dc696",
+      "6e1ace5a-01cd-4e65-826c-996c716597fb",
+      "d9589314-95a3-4560-bbaf-271a9c63093d",
+      "fe6c2727-3aaa-4750-a57a-7cb34dbb1b70",
+      "a48938a2-4280-4510-a9f0-aae6ba4ade34",
+      "08bd531d-5f4d-49fd-a0ec-aca3b333b327",
+      "af8049f8-1018-41d5-880d-cb6fb8ce1ce8",
+      "21283fe5-00a8-4a8e-b723-00ce68484f2c",
+      "7a135587-03c9-45e0-90b0-27e4dd9e5779",
+      "ff0f449b-80fb-4b6f-a060-b6f8ccdc1be6",
+      "898de76f-1292-4c71-a375-fd7034f0a1df",
+      "52820184-9ab9-4e7a-b6f6-8abed20458c7",
+      "d6e7a6af-ad74-4e4c-900e-d4bf16caf994",
+      "7f099d2f-18ec-4216-b437-4167c5dece3c",
+      "7f088c83-6f7b-4bbf-aa23-2c95c60361e9",
+      "32365e5e-86aa-42da-b1bf-d2fe4e76f316"
     ],
-    "currentFileId": "e1f4a14e-3994-43e7-841a-4b4ba25dc696",
-    "resources": {},
+    "currentFileId": "32365e5e-86aa-42da-b1bf-d2fe4e76f316",
+    "resources": {
+      "apigusEast1slpAnimalApiuploadany": {
+        "name": "apigusEast1slpAnimalApiuploadany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "slp-animal-api",
+          "apiId": "cryvibdrxh",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "d0awknu9m6",
+          "existingResources": {
+            "/": "d0awknu9m6",
+            "/upload": "fpicbe"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/upload",
+          "resourceName": "upload",
+          "resourceId": "fpicbe",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "test",
+          "stageDeploymentId": "3tavmv",
+          "mode": 1
+        }
+      }
+    },
     "customTemplate": {
       "dialect": null,
       "definitions": null
@@ -50,6 +306,14 @@
         "shouldPersist": false,
         "displayOnly": false,
         "editable": false
+      },
+      {
+        "lambdaId": "6e1ace5a-01cd-4e65-826c-996c716597fb",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/repoocheckinduu",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
       }
     ],
     "packageJSON": {
@@ -63,7 +327,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1576664192773
+    "lastSave": 1576670073069
   },
   "VCS_STATE": {
     "provider": "GitHub",
